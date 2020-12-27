@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Hello World!!"
+        run: echo "Hello World"
       - name: multiline script
         run: |
           node -v
@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Directory Powershell
-        run: GET-Locationh
+        run: GET-Location
       - name: Directory Bash
         run : pwd
         shell: bash
